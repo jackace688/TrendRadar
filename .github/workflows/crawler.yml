@@ -179,11 +179,6 @@ jobs:
       #   - CLOUDFLARE_PROJECT_NAME  Cloudflare Pages 项目名（需提前在 Dashboard 创建）
       # 配置教程详见 README「自动部署到 Cloudflare Pages」章节。
       # --------------------------------------------------------------------------------
-      - name: Set up Node.js 20
-        if: success()
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
       - name: Check Cloudflare config
         if: success()
         id: cf_check
