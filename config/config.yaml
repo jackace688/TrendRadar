@@ -141,6 +141,35 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    # 国际科技 / 新闻推荐
+    - id: "techcrunch"
+      name: "TechCrunch"
+      url: "https://techcrunch.com/feed/"
+
+    - id: "the-verge"
+      name: "The Verge"
+      url: "https://www.theverge.com/rss/index.xml"
+
+    - id: "ars-technica"
+      name: "Ars Technica"
+      url: "https://feeds.arstechnica.com/arstechnica/index"
+
+    - id: "wired"
+      name: "Wired"
+      url: "https://www.wired.com/feed/rss"
+
+    - id: "bbc-news"
+      name: "BBC News"
+      url: "https://feeds.bbci.co.uk/news/rss.xml"
+
+    - id: "reuters-tech"
+      name: "Reuters Technology"
+      url: "https://www.reuters.com/technology/rss"
+
+    - id: "engadget"
+      name: "Engadget"
+      url: "https://www.engadget.com/rss.xml"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
