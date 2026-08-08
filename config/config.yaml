@@ -158,14 +158,6 @@ rss:
       name: "Wired"
       url: "https://www.wired.com/feed/rss"
 
-    - id: "bbc-news"
-      name: "BBC News"
-      url: "https://feeds.bbci.co.uk/news/rss.xml"
-
-    - id: "reuters-tech"
-      name: "Reuters Technology"
-      url: "https://www.reuters.com/technology/rss"
-
     - id: "engadget"
       name: "Engadget"
       url: "https://www.engadget.com/rss.xml"
