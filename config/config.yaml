@@ -131,12 +131,6 @@ rss:
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
 
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      enabled: false                  # 禁用
-      # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
-
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
@@ -161,6 +155,45 @@ rss:
     - id: "engadget"
       name: "Engadget"
       url: "https://www.engadget.com/rss.xml"
+
+    # ── 中文 AI / 科技（质量优先，飞书低风险）──
+    - id: "qbitai"
+      name: "量子位"
+      url: "https://www.qbitai.com/feed"
+
+    - id: "geekpark"
+      name: "极客公园"
+      url: "https://www.geekpark.net/rss"
+
+    - id: "sspai"
+      name: "少数派"
+      url: "https://sspai.com/feed"
+
+    # ── 财经（国内外通吃）──
+    - id: "ftchinese"
+      name: "FT中文网"
+      url: "https://www.ftchinese.com/rss/feed"
+
+    - id: "cnbc"
+      name: "CNBC"
+      url: "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+
+    - id: "bloomberg"
+      name: "Bloomberg Markets"
+      url: "https://feeds.bloomberg.com/markets/news.rss"
+
+    # ── 英文 AI / 科技（一线媒体）──
+    - id: "mit-tech-review"
+      name: "MIT Technology Review"
+      url: "https://www.technologyreview.com/feed/"
+
+    - id: "nyt-tech"
+      name: "NYT Technology"
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+
+    - id: "venturebeat-ai"
+      name: "VentureBeat AI"
+      url: "https://venturebeat.com/category/ai/feed/"
 
     # 自定义源示例
     # - id: "custom-feed"
